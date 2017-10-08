@@ -1,0 +1,56 @@
+turnkey-slims8 (1) turnkey; urgency=low
+
+  * Initial release
+
+  * SLIMS description:
+    As a complete Library Management System, SLiMS (Senayan Library Management System) has many features that will help libraries and librarians to do their job easily and quickly. Below are some features provided by SLiMS :
+
+    * Online Public Access Catalog (OPAC) with thumbnail document image support (for images of book covers), Simple Search and Advanced Search mode
+    * Digital contents/files (PDF, DOC, RTF, XLS, PPT, Video, Audio, etc.): attachment in each bibliographic record is supported
+    * Documents record detail in MODS (Metadata Object Description Schema) XML format
+    * Documents record detail in JSON-LD format with schema.org
+    * RSS (Really Simple Syndication) XML format for OPAC
+    * OAI-PMH (Open Archives Initiative Protocol for Metadata Harvesting) in Dublin Core format for metadata harvesting purposes
+    * Bibliographic/catalog database management with book cover image support
+    * Union Catalog creation with Union Catalog Server
+    * Serial publication control
+    * Federated search engine creation with Nayanes
+    * Document items (book copies) management with barcode support
+    * Master Files management to manages document referential data such as GMD, Collection Types, Publishers, Authors, Locations, Authors and Suppliers
+    * Circulation support with following sub-features :
+          o Loan and Return transactions
+          o Collections reservations
+          o Quick returns
+          o Configurable and flexible Loan Rules
+          o Membership management
+          o Stocktaking module to help Stocktaking process in the library
+          o Reporting and Statistics
+    * System modules with the following sub-features :
+          o Global system configuration
+          o Modules management
+          o Application Users and Groups management
+          o Holiday settings
+          o Barcodes generator utility
+          o Database backup utility
+    * Responsive user interface
+    * 3rd party bibliographic records indexing support with Sphinx Search and MongoDB
+
+    *  About this SLIMS installation
+       The version of SLIMS installed here is SLIMS 8.3.1, as pulled from Github at build time. Subsequent  modifications are as follows:
+
+    * The SLIMS database, database-user, and database password are installed during the build, and passwords are reinitialise at first boot.
+    * As a result, the SLIMS Ezy installer does not run on first use.
+    * SLIMS sample data has NOT been imported into the database. However the accompanying  image files etc have been retained in this installation, and users may use the Turnkey Linux Adminer interface to import the sampledata.sql file ( from /var/www/slims8/for_install ) , if they wish.
+    * The Library 'admin' user password is set at first boot, and the default password=admin is disabled.
+    * The older YAZ4 libraries have been installed , as they are available from the Debian main repository. As a result the Z39.50 Service function operates, although the Z39.50 SRU function may be more reliable.
+    * Due to this developer's background and  involvement with Burmese libraries, unofficial "Australian English" and Myanmar language translations have been included. They appear at the bottom of the Available Languages list, to distinguish them from official translations.
+
+ 
+
+
+  * Note: Please refer to turnkey-core's changelog for changes common to all
+    appliances. Here we only describe changes specific to this appliance.
+
+ -- Jim Richardson <jim@burmastudy.org>  Tue, 26 Sept. 2017 
+
+

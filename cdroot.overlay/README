@@ -1,0 +1,15 @@
+This CD: 
+ 
+* Is bootable.
+* Contains a modified Turnkey Linux LAMP appliance with SLIMS 8.3.1 installed, along with Myanmar language translation files.
+* Will run 'live' , and also allow installation to hard disk 
+	[ Be aware that "Install to Hard Disk" is the default option, but that several interactive steps are necessary before install commences]
+* Is a beta release.
+* Contain documentation, available in the folder "/slims_appliance_docs" and also from within the appliance.
+* Is released under the following licences : https://www.turnkeylinux.org/license and SLIMS GPL3 : https://github.com/slims/slims8_akasia/blob/master/LICENSE
+Your usage of this software implies acceptance of these licence conditions.
+
+
+20/09/2016
+
+

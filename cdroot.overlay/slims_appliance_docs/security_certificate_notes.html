@@ -1,0 +1,12 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head></head><body><div style="text-align: center;"><big><big><big><span style="font-family: monospace;"><span style="font-weight: bold;">Why do I get a security warning!!.. and how do I fix it?</span></span></big></big></big><br><big><big><span style="font-family: monospace;"></span></big></big></div><big><big><span style="font-family: monospace;"><br>TurnKey
+Linux, creates unique security certificates for each installation
+instance.
+In doing so, it makes certificates which are "self-signed", and these
+will trigger a security alert in modern browsers such as Firefox, which
+will block you from the web-pages involved, if you use the https
+protocol. Web browser users must make a deliberate decision to trust
+these certificates by accepting them, in order to proceed.&nbsp; By
+choosing to store the certificate, the browser will not block you in
+the future.
+See <a href="https://www.turnkeylinux.org/blog/ssl-certificates" target="_blank">https://www.turnkeylinux.org/blog/ssl-certificates</a> for more discussions on this.<br><br>An option exists in the server's ADVANCED MENU page for obtaining proper certificates:<br><br><img style="width: 725px; height: 536px;" alt="Get SSL certificate" src="get_ssl.png"><br><br>This is the preferred option for a working installation, as it minimises any client difficulties.<br><br>For temporary usage, or other limited circumstances, the internal certificates may be safely accepted, stored, and used.<br><br>For example, in Firefox :<br><br><img style="width: 1239px; height: 416px;" alt="step1" src="action1.png"><br>Select "Advanced"<br><br>Then<br><br><br><br><img style="width: 1040px; height: 516px;" alt="Step 2" src="action2.png"><br><br>Select "Add Exception"<br><br>Then<br><br><img style="width: 726px; height: 662px;" alt="step 3" src="action3.png"><br><br>Choose to permanently store, and "Confirm"<br><br>Other browsers have similar dialogues.<br><br><br><br><br></span></big></big></body></html>
