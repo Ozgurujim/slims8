@@ -1,6 +1,4 @@
-SLIMS8 - Next generation Content Management System
-
-Turnkey Linux Appliance Candidate
+SLIMS8 - Turnkey Linux Appliance Candidate
 
 Use TKLDEV to create an ISO from this source.
 =====================================================
