@@ -1,4 +1,6 @@
 SLIMS8 - Next generation Content Management System
+Turnkey Linux Appliance Candidate
+Use TKLDEV to create an ISO from this source.
 =====================================================
 
 `SLIMS`_ As a complete Library Management System, SLiMS (Senayan Library Management System) has many features that will help libraries and librarians to do their job easily and quickly. Below are some features provided by SLiMS :
